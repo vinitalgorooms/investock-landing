@@ -2,10 +2,10 @@ import React from "react";
 
 const PersonalizeSection = () => {
   return (
-    <section className="bg-white py-24 px-6 md:px-20">
+    <section className="bg-white px-6 md:pl-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
         {/* Left Content */}
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left pt-24 md:py-48">
           <h2 className="text-3xl md:text-4xl font-bold text-[#3063ff] leading-snug mb-6">
             Personalize your <br />
             interface for <br />
@@ -15,7 +15,7 @@ const PersonalizeSection = () => {
             With flexible layout options, you can arrange tools and features to suit your unique needs.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex flex-col  items-center md:items-start gap-4">
             <a
               href="#download"
               className="bg-[#3063ff] hover:bg-[#274ddb] text-white px-6 py-3 rounded-lg font-semibold text-sm transition"
@@ -30,11 +30,11 @@ const PersonalizeSection = () => {
         </div>
 
         {/* Right: Image */}
-        <div className="flex justify-center lg:justify-end">
+        <div className="flex justify-center lg:justify-end md:h-full md:my-24">
           <img
             src="/personalize-mock.png"
             alt="App Interface Mockup"
-            className="w-full max-w-3xl object-contain"
+            className=" md:h-full md:max-w-2xl object-contain"
           />
         </div>
       </div>

@@ -5,8 +5,8 @@ const companies = [
   { name: "Luminous", logo: "/logos/luminous.png" },
   { name: "GlobalBank", logo: "/logos/globalbank.png" },
   { name: "Capsule", logo: "/logos/capsule.png" },
-  { name: "Lightbox", logo: "/logos/lightbox.png" },
-  { name: "Command-R", logo: "/logos/commandr.png" },
+//   { name: "Lightbox", logo: "/logos/lightbox.png" },
+//   { name: "Command-R", logo: "/logos/commandr.png" },
 ];
 
 const TrustedSection = () => {
@@ -18,7 +18,7 @@ const TrustedSection = () => {
       </h2>
 
       {/* Logos */}
-      <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 opacity-80 px-2">
+      <div className="flex flex-wrap items-center justify-between gap-6 sm:gap-8 opacity-80 px-2">
         {companies.map((company) => (
           <img
             key={company.name}

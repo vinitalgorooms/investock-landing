@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvancedFeaturesSection = () => {
   return (
-    <section className="bg-white py-24 px-6 md:px-20">
+    <section id="features"className="bg-white py-24 px-6 md:px-20">
       <div className="max-w-7xl mx-auto space-y-12">
         {/* ✅ ROW 1 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -16,7 +16,7 @@ const AdvancedFeaturesSection = () => {
               <img
                 src="/features/growth-icons.png"
                 alt="Growth Icons"
-                className="w-24 mb-4"
+                className="mb-4 object-contain"
               />
             </div>
             <p className="text-xs text-gray-500">27M+ Annual Growth</p>
@@ -36,7 +36,7 @@ const AdvancedFeaturesSection = () => {
               <img
                 src="/features/ai-workflow.jpg"
                 alt="AI Workflow"
-                className="w-full h-32 object-cover rounded-md"
+                className="mb-4 object-contain rounded-md"
               />
               <p className="text-xs text-gray-500 mt-2">How our AI transforms your workflow</p>
             </div>
@@ -53,7 +53,7 @@ const AdvancedFeaturesSection = () => {
             <img
               src="/features/collab-phone.png"
               alt="Phone"
-              className="w-28 object-contain"
+              className="mb-4 object-contain"
             />
           </div>
         </div>
@@ -62,11 +62,11 @@ const AdvancedFeaturesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Card 1 */}
           <div className="bg-[#f9fafb] p-5 rounded-xl shadow-sm flex flex-col justify-between items-start min-h-[300px]">
-            <h3 className="text-lg font-bold mb-4">Core Features Explained</h3>
+            <h3 className="text-lg font-bold mb-16">Core Features Explained</h3>
             <img
               src="/features/core-phone.png"
               alt="App UI"
-              className="w-32 object-contain mt-auto"
+              className="mb-4 object-contain"
             />
           </div>
 
@@ -90,7 +90,7 @@ const AdvancedFeaturesSection = () => {
             <img
               src="/features/growth-donut.png"
               alt="Growth Donut"
-              className="w-full max-w-[230px] object-contain"
+              className="mb-4 object-contain"
             />
           </div>
         </div>

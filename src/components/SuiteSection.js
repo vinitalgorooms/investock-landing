@@ -2,7 +2,7 @@ import React from "react";
 
 const SuiteSection = () => {
   return (
-    <section className="bg-black text-white py-24 px-6 md:px-20">
+    <section className="bg-black text-white pt-24 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left Content */}
         <div className="flex-1">

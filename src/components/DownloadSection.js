@@ -30,12 +30,16 @@ const DownloadSection = () => {
             empower your team.
           </p>
 
-          <div className="flex items-center justify-center md:justify-start gap-3 flex-wrap">
+          <div className="flex flex-col  items-center md:items-start justify-center md:justify-start gap-3 flex-wrap">
             <button className="bg-blue-600 text-white text-sm px-5 py-2 rounded-md hover:bg-blue-700 transition">
               Download App
             </button>
+            <div className= "flex gap-3 ">
+        
             <img src="/badges/playstore.png" alt="Google Play" className="h-8" />
             <img src="/badges/appstore.png" alt="App Store" className="h-8" />
+
+            </div>
           </div>
         </div>
       </div>
