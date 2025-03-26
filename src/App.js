@@ -11,9 +11,10 @@ import DownloadSection from "./components/DownloadSection";
 import Footer from "./components/Footer";
 
 
+
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-montserrat">
       <Navbar />
       <Hero />
       <TrustedSection />

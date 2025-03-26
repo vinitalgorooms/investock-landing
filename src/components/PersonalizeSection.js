@@ -6,7 +6,7 @@ const PersonalizeSection = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
         {/* Left Content */}
         <div className="text-center lg:text-left">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#3063ff] leading-snug mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#3063ff] leading-snug mb-6">
             Personalize your <br />
             interface for <br />
             maximum efficiency

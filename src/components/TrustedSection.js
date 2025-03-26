@@ -11,20 +11,20 @@ const companies = [
 
 const TrustedSection = () => {
   return (
-    <section className="bg-white py-16 px-4 md:px-20 text-center">
+    <section className="bg-white py-12 md:py-16 px-4 md:px-20 text-center">
       {/* Heading */}
-      <h2 className="text-gray-600 text-sm font-medium mb-10">
+      <h2 className="text-gray-600 text-sm sm:text-base font-medium mb-8 md:mb-10 px-2 max-w-md mx-auto">
         Top companies trust us for delivering excellence in app solutions
       </h2>
 
       {/* Logos */}
-      <div className="flex flex-wrap items-center justify-center gap-8 opacity-80">
+      <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 opacity-80 px-2">
         {companies.map((company) => (
           <img
             key={company.name}
             src={company.logo}
             alt={company.name}
-            className="h-8 grayscale hover:grayscale-0 transition duration-300"
+            className="h-6 sm:h-8 grayscale hover:grayscale-0 transition duration-300 max-w-[120px]"
           />
         ))}
       </div>

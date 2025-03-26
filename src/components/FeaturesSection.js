@@ -29,16 +29,21 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="bg-white py-24 px-6 md:px-20">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto text-center">
+    <section className="bg-white py-16 sm:py-24 px-4 sm:px-8 md:px-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 max-w-6xl mx-auto text-center">
         {features.map((feature, index) => (
-          <div key={index} className="flex flex-col items-center justify-start gap-6">
+          <div
+            key={index}
+            className="flex flex-col items-center gap-5 sm:gap-6 px-4"
+          >
             <img
               src={feature.icon}
               alt={`Feature ${index + 1}`}
-              className="h-14 w-14 object-contain"
+              className="h-12 sm:h-14 w-12 sm:w-14 object-contain"
             />
-            <p className="text-sm text-gray-700 max-w-xs">{feature.text}</p>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed max-w-xs">
+              {feature.text}
+            </p>
           </div>
         ))}
       </div>

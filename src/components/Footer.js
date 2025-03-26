@@ -2,13 +2,15 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: "#F7F7F7" }} className="bg-[#FAFAFA] px-6 md:px-20 py-12">
+    <footer style={{ backgroundColor: "#FAFAFA" }} className="px-6 md:px-20 py-12">
       {/* Top: Logo & Links */}
       <div className="flex flex-col items-center gap-6">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-800">
-          Investock.<span className="text-blue-500">ai</span>
-        </div>
+        <img
+          src="/logo.png"
+          alt="Investock.ai Logo"
+          className="h-8 w-auto"
+        />
 
         {/* Navigation Links */}
         <ul className="flex flex-wrap justify-center gap-6 text-sm text-gray-700 font-medium">
